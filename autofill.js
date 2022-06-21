@@ -24,8 +24,8 @@
       var email = 'jcasas.kooomo+' + faker.Name.firstName().toLowerCase() + '@gmail.com';
 
       $('[name="user[email]"]').val(email);
-      $('[name="user[passwd]"]').val('12345');
-      $('[name="user[password_confirm]"]').val('12345');
+      $('[name="user[passwd]"]').val('Qwerty123.');
+      $('[name="user[password_confirm]"]').val('Qwerty123.');
       $('[name="user[first_name]"]').val(faker.Name.firstName());
       $('[name="user[last_name]]"]').val(faker.Name.lastName());
       $('[name="shipping_address[first_name]"]').val(faker.Name.firstName());
